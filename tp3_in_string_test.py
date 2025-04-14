@@ -3,7 +3,7 @@ import unittest.mock
 import in_string as ex1
 
 
-class TP3InStringTestCases(unittest.TestCase):
+class TP3InStringTestCases(unittest.TestCase): 
 
     @unittest.mock.patch('sys.stdout', new_callable=io.StringIO)
     def test_in_string(self, mock_stdout):
